@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio showcasing projects, skills, and contact information."
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDrmGON60V7RsweNrtN+1eYyYVerk3k"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <header id="home" class="position-relative">
+      <section class="hero-section">
+        
+        <div class="container">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-7 col-xl-6">
+              <div class="hero-copy" data-animate="fade-up">
+                <p class="subtitle text-primary text-uppercase mb-1">Hello, I am</p>
+                <h1 class="display-4 fw-bold mb-2">
+                  <span style="color: rgb(174, 75, 17); font-weight: bold">Rushikesh Shishir Deshmukh</span>
+                  <span class="text-gradient"></span>
+                </h1>
+                <p class="lead text-secondary">
+                  I build <span class="typed-text" data-words='["interactive Dashboards","RestAPIs","websites","Mobile apps"]'></span>
+                </p>
+                <div class="d-flex gap-3 flex-wrap mt-4">
+                  <a href="#projects" class="btn btn-primary px-4">View Projects</a>
+                  <a href="#contact" class="btn btn-outline-primary px-4">Let's Talk</a>
+                </div>
+                <div class="resume-download-box mt-4">
+                  <a href="assets/Rushikesh_Resume.pdf" class="btn btn-outline-primary px-4" download>
+                    <i class="bi bi-download me-2"></i>Download Resume
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-image-wrapper" data-animate="fade-left">
+            <div class="profile-image-container">
+              <img src="assets/img/my photo 1.jpg" alt="Rushikesh Deshmukh" class="profile-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-padding gradient-section">
+        <div class="container">
+          <div class="row align-items-center g-5 services-box">
+            <div class="col-lg-7" data-animate="fade-right">
+              <span class="section-eyebrow text-white-50">Services</span>
+              <h2 class="section-title text-white">What I can do for you</h2>
+              <p class="text-white-50">
+                From concept to final hand-off, I blend product thinking with modern engineering so you get thoughtful solutions that feel effortless to use.
+              </p>
+              <div class="service-tags">
+                <span>Website Design</span>
+                <span>Frontend Architecture</span>
+                <span>API Development</span>
+                <span>Dashboard Development</span>
+              </div>
+            </div>
+            <div class="col-lg-5" data-animate="fade-left">
+              <div class="glass-card">
+                <ul class="timeline list-unstyled mb-0">
+                  <li>
+                    <span class="timeline-year">2024</span>
+                    <div>
+                      <h6>Completed B.Tech</h6>
+                      <p>Completed my B.Tech in electronics and telecommunicationffrom PVPIT College of Engineering, Pune.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="timeline-year">2023</span>
+                    <div>
+                      <h6>Internship at Elite softwares </h6>
+                      <p>Worked as a frontend developer and developed a website for a client.</p>
+                    </div>
+                  </li>
+                  <li>
+                    <span class="timeline-year">2022</span>
+                    <div>
+                      <h6>Student at PVPIT College of Engineering</h6>
+                      <p>Started my college life at PVPIT College of Engineering, Pune.</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section id="about" class="section-padding bg-body-tertiary">
+        <div class="container">
+          <div class="row g-4 align-items-center">
+            <div class="col-lg-5" data-animate="fade-right">
+              <div class="about-bio">
+                <span class="section-eyebrow">About</span>
+                <h2 class="section-title">Software engineer | Data analysis | Data enthusiastic</h2>
+                <p class="text-secondary">
+                  Highly motivated fresher in software engineering with the skills like python, django, rest API. Also worked on data Analysis role with interactive Dashboard and Exploratory Data Annlysis. worked on the python projects like Django blog project, movie review Api, and many more.    
+                </p>
+                <ul class="about-stats list-unstyled">
+                  <li>
+                    <span>3</span>
+                    Internship Certificate
+                  </li>
+                  <li>
+                    <span>4+</span>
+                    Core python and Django projects
+                  </li>
+                  <li>
+                    <span>6+</span>
+                    interactive Power BI and tableau Dashboards
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-7" data-animate="fade-left">
+              <div class="about-grid">
+                <div class="about-tile">
+                  <div class="about-tile__icon">
+                    <i class="bi bi-lightning-charge-fill"></i>
+                  </div>
+                  <div>
+                    <h5>Secondary education</h5>
+                    <p>Completed SSC From Chate School with 90%.</p>
+                  </div>
+                </div>
+                <div class="about-tile">
+                  <div class="about-tile__icon">
+                    <i class="bi bi-braces-asterisk"></i>
+                  </div>
+                  <div>
+                    <h5>Higher Secondary</h5>
+                    <p>Completed HSC From Deogiri College with 61%.</p>
+                  </div>
+                </div>
+                <div class="about-tile">
+                  <div class="about-tile__icon">
+                    <i class="bi bi-people-fill"></i>
+                  </div>
+                  <div>
+                    <h5>Graduation</h5>
+                    <p>Completed Graduation in electronics and telecommunication from PVPIT College with 7.9CGPA.</p>
+                  </div>
+                </div>
+                <div class="about-tile">
+                  <div class="about-tile__icon">
+                    <i class="bi bi-cpu"></i>
+                  </div>
+                  <div>
+                    <h5>Certification</h5>
+                    <p>Done My certification from IT Preneur in python full stack and Data analysis.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section-padding">
+        <div class="container">
+          <div class="skills-head text-center" data-animate="fade-up">
+            <span class="section-eyebrow">Skills</span>
+            <h2 class="section-title">Fresher ready project</h2>
+            <p class="text-secondary">
+              I balance classroom knowledge wi  th self-driven projects so every stack area has a practical proof point.
+            </p>
+          </div>
+
+          <div class="skills-balanced-grid">
+            <div class="skill-block" data-animate="fade-up">
+              <h5>Frontend Foundations</h5>
+              <p>Clean UI, mobile-first layouts, and component reuse.</p>
+              <ul class="skill-bullet-list">
+                <li>HTML, CSS, Bootstrap</li>
+                <li>React basics & hooks</li>
+                <li>Accessibility-first approach</li>
+              </ul>
+            </div>
+            <div class="skill-block" data-animate="fade-up">
+              <h5>Backend Basics</h5>
+              <p>Straightforward basics and API contracts for MVPs.</p>
+              <ul class="skill-bullet-list">
+                <li>Python + Django REST</li>
+                <li>Django + RestAPIs</li>
+                <li>Auth, CRUD, validations</li>
+              </ul>
+            </div>
+            <div class="skill-block" data-animate="fade-up">
+              <h5>Data & Analytics</h5>
+              <p>Dashboards and insights that help stakeholders decide faster.</p>
+              <ul class="skill-bullet-list">
+                <li>Power BI & Tableau</li>
+                <li>SQL queries & joins</li>
+                <li>Python (Pandas, NumPy)</li>
+              </ul>
+            </div>
+            <div class="skill-block" data-animate="fade-up">
+              <h5>Tools Used</h5>
+              <p>Different Tools and platforms Used for running the Project.</p>
+              <ul class="skill-bullet-list">
+                <li>Git / GitHub flow</li>
+                <li>Visual Studio Code</li>
+                <li>Pycharm </li>
+              </ul>
+            </div>
+            <div class="skill-block" data-animate="fade-up">
+              <h5>Learning Focus</h5>
+              <p>Always investing in the next skill so I can grow with the team.</p>
+              <ul class="skill-bullet-list">
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Computer Vision</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="skill-highlights">
+            <div class="highlight-card">
+              <span>10</span>
+              Academic & personal projects.
+            </div>
+            <div class="highlight-card">
+              <span>05</span>
+              Certifications.
+            </div>
+            <div class="highlight-card">
+              <span>07</span>
+              collaborated in Different Project.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-padding bg-body-tertiary">
+        <div class="container">
+          <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-8" data-animate="fade-up">
+              <span class="section-eyebrow">Projects</span>
+              <h2 class="section-title">My Projects</h2>
+              <p class="text-secondary">
+              Here are some of the projects I have worked on.
+              </p>
+            </div>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4" data-animate="zoom-in">
+              <div class="project-card h-100">
+                <div class="project-thumb">
+                  <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="SaaS Dashboard" class="img-fluid" />
+                </div>
+                <div class="project-content">
+                  <span class="project-tag">Productivity</span>
+                  <h5>Django Project</h5>
+                  <p> A project to manage the inventory of a company.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
+                    <div class="stack-tags">
+                      <span>Python</span>
+                      <span>Django</span>
+                      <span>Rest API</span>
+                    </div>
+                    <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-animate="zoom-in">
+              <div class="project-card h-100">
+                <div class="project-thumb">
+                  <img src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=800&q=80" alt="E-commerce" class="img-fluid" />
+                </div>
+                <div class="project-content">
+                  <span class="project-tag">Data Analytics</span>
+                  <h5>Data Analysis Project</h5>
+                  <p>A project to analyze the data of a company.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
+                    <div class="stack-tags">
+                      <span>Power BI</span>
+                      <span>Tableau</span>
+                      <span>SQL</span>
+                    </div>
+                    <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-animate="zoom-in">
+              <div class="project-card h-100">
+                <div class="project-thumb">
+                  <img src="https://images.unsplash.com/photo-1474631245212-32dc3c8310c6?auto=format&fit=crop&w=800&q=80" alt="Fintech" class="img-fluid" />
+                </div>
+                <div class="project-content">
+                  <span class="project-tag">Web Development</span>
+                  <h5>Portfolio Website</h5>
+                  <p>A website to showcase my projects and skills.</p>
+                  <div class="d-flex justify-content-between align-items-center mt-3">
+                    <div class="stack-tags">
+                      <span>HTML</span>
+                      <span>CSS</span>
+                      <span>JavaScript</span>
+                      <span>Bootstrap</span>
+                    </div>
+                    <a href="#" class="btn btn-outline-primary btn-sm">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-padding">
+        <div class="container">
+          <div class="row g-5">
+            <div class="col-lg-6" data-animate="fade-right">
+              <div class="contact-info-box">
+                <span class="section-eyebrow">Contact</span>
+                <h2 class="section-title">Let's build something great</h2>
+                <p class="text-secondary">
+                  Interested in collaborating or have a project in mind? Drop a message and I'll get back to you shortly.
+                </p>
+                <ul class="list-unstyled contact-list">
+                  <li>
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>rushideshmukh798@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-telephone-fill"></i>
+                    <span>9130092603</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span>Pune, Maharashtra</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6" data-animate="fade-left">
+              <div class="contact-form-box">
+                <form class="contact-form">
+                  <div class="mb-3">  
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" required />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="jane@example.com" required />
+                  </div>
+                  <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Project inquiry" />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-4">
+      <div class="container text-center">
+        <p class="mb-0">&copy; <span id="year"></span> Rushikesh Deshmukh. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+
